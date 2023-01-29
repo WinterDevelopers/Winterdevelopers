@@ -565,7 +565,7 @@ footer .brand-id{
   }
 }
 
-@media (max-width: 479px){
+@media (max-width: 480px){
   nav{
     padding: 1rem 1.5rem;
   }
