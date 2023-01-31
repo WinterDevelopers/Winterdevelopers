@@ -289,6 +289,172 @@ button:hover{
   padding-left: 1rem;
 }
 
+/* David's Section Begining
+  Remember to rename classes */
+
+.projects-section{
+  background: #efefef;
+  padding: 6rem 0;
+}
+
+.projects-section h2{
+  font-size: 1.6rem;
+  color: #31363b;
+  padding: 1rem 0 2rem 0;
+}
+
+.project {
+  display: flex;
+  gap: 1rem;
+}
+
+.project-card .d-flex{
+  flex-direction: column-reverse;
+}
+
+.project img {
+  width: 100%;
+  height: 20rem;
+  border-radius: 1.2rem;
+  margin: 1rem 0 2rem 0;
+  /* padding-bottom: 60px; */
+}
+
+.project .d-flex p{
+  width: 80%;
+}
+
+.testimonial-section{
+  padding: 6rem 0 8rem 0;
+  background: #31363b;
+}
+
+.testimonial-section h3{
+  font-size: 1rem;
+  color: #bbb;
+}
+
+.testimonial-section h4{
+  font-size: 3.5rem;
+  padding: .5rem 0 3rem 0;
+  color: #fff;
+}
+
+.testimonial {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.testblock {
+  background-color: white;
+  /* padding: 2rem; */
+  width: 31%;
+  border-radius: 1rem;
+  padding: 3rem 2rem;
+}
+
+.testblock p{
+  font-size: 1.5rem;
+  font-style: italic;
+  font-weight: 500;
+  color: #777;
+}
+
+.testblock i{
+  display: flex;
+  justify-content: end;
+  padding: 1rem;
+}
+
+.testgrid {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.testgrid p {
+  font-size: 1.1rem;
+}
+
+.testimonial h3 {
+  font-size: 1.3rem;
+  color: #31363b;
+}
+
+.testimonial img {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+}
+
+.contact{
+  padding: 2rem 6rem;
+  margin: 6rem auto;
+  border-radius: 1rem;
+  background: #dce8eb;
+}
+
+.contact h2{
+  font-size: 1.3rem;
+  font-weight: 700;
+  padding: 1rem 0 .5rem 0;
+  color: #31363b;
+}
+
+.contact h3{
+  color: #000;
+  font-size: 3.5rem;
+  font-weight: 700;
+  padding-bottom: 1rem;
+}
+
+input {
+  padding: 1rem 1.5rem;
+  font-size: 1rem;
+  width: 32.5%;
+  border: none;
+  outline: none;
+  border-radius: .7rem;
+}
+
+.formgrid {
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: space-between;
+  margin: 1rem 0;
+}
+
+textarea {
+  width: 100%;
+  padding: 1rem 1.4rem;
+  border: none;
+  border-radius: .7rem;
+  outline: none;
+}
+
+.contact-button-div{
+  display: flex;
+  justify-content: end;
+  margin: 1rem 0 3rem 0;
+}
+
+.form button {
+  padding: 1rem 2rem;
+  font-size: large;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: .3rem;
+}
+
+.form button:hover {
+  background-color: white;
+  color: black;
+}
+
+/* David's Section Ending */
+
 /* FOOTER SECTION */
 
 footer .brand-id{
@@ -355,7 +521,7 @@ footer .brand-id{
     width: 100%;
   }
   nav{
-    padding: .5rem 3rem;
+    padding: .5rem 1rem;
   }
   .navbar-social-mobile{
     display: flex;
@@ -363,20 +529,17 @@ footer .brand-id{
     gap: 1rem;
     padding: 1rem 0;
   }
-
   .hamburger{
-    /* display: none; */
     cursor: pointer;
   }
-
   .bar{
     display: block;
-    width: 2.5rem;
+    width: 2.1rem;
     height: .2rem;
     margin: .3rem auto;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-    background: #777;
+    background: #000;
     border-radius: 10px;
   }
 
@@ -465,6 +628,18 @@ footer .brand-id{
   .list-item{
     padding: .6rem 0;
   }
+  .testblock{
+    width: 48%;
+    margin-bottom: 2rem;
+  }
+  .formgrid{
+    flex-direction: column;
+    margin-bottom: 0;
+  }
+  .formgrid input{
+    width: 100%;
+    margin-bottom: 1rem;
+  }
   footer .container{
     max-width: 90%;
   }
@@ -524,6 +699,23 @@ footer .brand-id{
   .mission-statement h3{
     text-align: center;
   }
+  .project .d-flex p {
+    width: 100%;
+  }
+  .contact{
+    padding: 2rem 1rem;
+  }
+  .contact-section .container{
+    width: 65%;
+  }
+  .contact h2{
+    text-align: center;
+  }
+
+  .contact h3{
+    text-align: center;
+    font-size: 3rem;
+  }
   .footer-links{
     flex-wrap: wrap;
   }
@@ -558,6 +750,28 @@ footer .brand-id{
   .about-image {
     width: 85%;
     height: 35rem;
+  }
+  .project{
+    flex-direction: column;
+  }
+  .project-card{
+    margin-bottom: 2rem;
+  }
+  .testimonial-section h4{
+    font-size: 3rem;
+  }
+  .testimonial{
+    flex-direction: column;
+  }
+  .testblock{
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+  .contact-section .container {
+    width: 95%;
+  }
+  .contact-button-div{
+    justify-content: center;
   }
   .mission-statement h4{
     width: 95%;
