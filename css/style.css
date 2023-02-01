@@ -320,6 +320,11 @@ button:hover{
   width: 80%;
 }
 
+.project button{
+  margin: 1.5rem 0;
+  padding: 1rem 1.5rem;
+}
+
 .testimonial-section{
   padding: 6rem 0 8rem 0;
   background: #31363b;
@@ -752,6 +757,14 @@ footer .brand-id{
   }
   .project-card{
     margin-bottom: 2rem;
+  }
+  .btn-div{
+    display: flex;
+    justify-content: center;
+  }
+  .btn-div button{
+    padding-left: 3rem;
+    padding-right: 3rem;
   }
   .testimonial-section h4{
     font-size: 3rem;
