@@ -818,6 +818,9 @@ footer .brand-id{
   .mission-list{
     width: 100%;
   }
+  .projects-section h2{
+    text-align: center;
+  }
   .testimonial-section h3{
     text-align: center;
   }
