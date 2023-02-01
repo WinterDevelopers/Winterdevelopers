@@ -47,10 +47,6 @@ nav{
   height: 3rem;
 }
 
-.company-logo-small{
-  background: #777;
-}
-
 .brand-id{
   align-items: center;
   gap: .8rem;
@@ -771,7 +767,7 @@ footer .brand-id{
     width: 95%;
   }
   .contact-button-div{
-    justify-content: center;
+    justify-content: center ;
   }
   .mission-statement h4{
     width: 95%;
@@ -786,6 +782,10 @@ footer .brand-id{
   .nav-links {
     width: 100%;
     top: 5rem;
+  }
+  .navbar-caption,
+  .footer-caption{
+    font-size: 1.3rem;
   }
   .company-details h4{
     font-size: 1.1rem;
@@ -817,5 +817,12 @@ footer .brand-id{
   }
   .mission-list{
     width: 100%;
+  }
+  .testimonial-section h3{
+    text-align: center;
+  }
+  .testimonial-section h4{
+    text-align: center;
+    font-size: 2.5rem;
   }
 }
