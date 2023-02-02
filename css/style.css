@@ -285,6 +285,243 @@ button:hover{
   padding-left: 1rem;
 }
 
+/* Chukwuma's Section Beginning */
+
+.technologies {
+  background: #efefef;
+  padding: 3rem 0;
+  margin-bottom: .2rem
+}
+
+.technologies-header {
+  text-align: center;
+  font-size: 3.5rem;
+  padding: 1.5rem 0 3rem 0;
+  color: #232323;
+}
+
+.technologies-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.tech-image {
+  background: #fff;
+  width: 32%;
+  border-radius: 1rem;
+  position: relative;
+}
+
+.img1 img {
+  width: 100%;
+  height: 14rem;
+  object-fit: cover;
+  border-radius: 1rem 1rem 0 0;
+}
+
+.img1{
+  width: 100%;
+}
+
+.tech-card-description{
+  padding: 2rem;
+}
+
+.tech-card-description h3{
+  font-size: 1rem;
+}
+
+.tech-card-description p{
+  font-size: 2rem;
+}
+
+.tech-image i {
+  background-color: rgb(255, 255, 255);
+  color: black;
+  position: absolute;
+  padding: 1rem;
+  border-radius: .6rem;
+  bottom: 6rem;
+  right: 2rem;
+  filter: drop-shadow(0 0 0.9rem #efefef);
+  cursor: pointer;
+}
+
+.tech-stack{
+  padding: 3rem 0;
+}
+
+.tech-stack-header{
+  text-align: center;
+  font-size: 3.5rem;
+  color: #232323;
+}
+
+.ts-svg-header{
+  font-size: 1.2rem;
+  text-align: center;
+  width: 80%;
+  margin: 1rem auto;
+}
+
+.ts-svg {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  padding: 2rem 0;
+}
+
+.html,
+.css,
+.js,
+.git,
+.react,
+.vue,
+.python,
+.django,
+.bootstrap{
+  width: 4rem;
+}
+
+.html img,
+.css img,
+.js img,
+.git img,
+.react img,
+.vue img,
+.python img,
+.django img,
+.bootstrap img {
+  transition: all ease-in-out .3s;
+  width: 100%;
+}
+
+.html img:hover,
+.css img:hover,
+.js img:hover,
+.git img:hover,
+.react img:hover,
+.vue img:hover,
+.python img:hover,
+.django img:hover,
+.bootstrap img:hover {
+  transform: scale(1.2);
+  filter: drop-shadow(0 0 0.9rem #efefef);
+  cursor: pointer;
+}
+
+.team-members{
+  background: #efefef;
+  padding: 4rem 0;
+  margin-bottom: .3rem;
+}
+
+.team-members h4{
+  text-align: center;
+  font-size: 1.2rem;
+  color: #777;
+  padding:0 0 1rem 0;
+}
+
+.team-members-header{
+  text-align: center;
+  font-size: 3.5rem;
+  padding-bottom: 2rem;
+}
+
+.team-members-images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.chu,
+.chris,
+.david,
+.daniel{
+  width: 23%;
+  background-color: #fff;
+  text-align: center;
+  border-radius: .6rem;
+}
+
+.chus-image,
+.chris-image,
+.david-image,
+.daniel-image{
+  margin: 2.5rem 0;
+}
+
+.chu img,
+.chris img,
+.david img,
+.daniel img{
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  object-fit: cover;
+  transition: all ease-in-out .3s;
+}
+
+.chu img:hover,
+.chris img:hover,
+.david img:hover,
+.daniel img:hover{
+  cursor: pointer;
+  transform: scale(1.2);
+
+}
+
+.name {
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: .5rem;
+}
+
+.role {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #777;
+}
+
+.team-member-socials{
+  width: 60%;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.social-icons{
+  background: #efefef;
+  padding: .6rem .7rem;
+  border-radius: .6rem .6rem 0 0;
+  transition: all ease-in-out .2s;
+}
+
+.social-icons:hover{
+  background: #f7d9c4;
+  cursor: pointer;
+}
+
+.social-icons i{
+  font-size: 1rem;
+}
+
+.social-icons:hover{
+  color: #fff;
+}
+
+.role {
+  margin-bottom: 40px;
+  font-weight: 100;
+}
+
+
+/* Chukwuma's Section End */
+
 /* David's Section Begining
   Remember to rename classes */
 
@@ -629,6 +866,34 @@ footer .brand-id{
   .list-item{
     padding: .6rem 0;
   }
+
+  .tech-image{
+    width: 48%;
+    margin-bottom: 1rem;
+  }
+
+  .ts-svg-header{
+    width: 100%;
+  }
+
+  .team-members-images{
+    justify-content: space-evenly;
+  }
+
+  .team-member-socials {
+    width: 50%;
+    margin: 0 auto;
+    justify-content: space-between;
+  }
+
+  .chu,
+  .chris,
+  .david,
+  .daniel {
+    width: 45%;
+    margin-bottom: 4rem;
+  }
+
   .testblock{
     width: 48%;
     margin-bottom: 2rem;
@@ -700,6 +965,11 @@ footer .brand-id{
   .mission-statement h3{
     text-align: center;
   }
+  .ts-svg{
+    width: 80%;
+    margin: 0 auto;
+    justify-content: center;
+  }
   .project .d-flex p {
     width: 100%;
   }
@@ -751,6 +1021,18 @@ footer .brand-id{
   .about-image {
     width: 85%;
     height: 35rem;
+  }
+  .tech-image{
+    width: 100%;
+  }
+  .chu,
+  .chris,
+  .david,
+  .daniel{
+    width: 100%;
+  }
+  .team-member-socials {
+    width: 30%;
   }
   .project{
     flex-direction: column;
@@ -830,6 +1112,11 @@ footer .brand-id{
   }
   .mission-list{
     width: 100%;
+  }
+  .technologies-header,
+  .team-members-header,
+  .tech-stack-header{
+    font-size: 2.5rem;
   }
   .projects-section h2{
     text-align: center;
